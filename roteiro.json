@@ -1,0 +1,45 @@
+{
+    "Reiniciar": ["Você está em uma estrada deserta longe de casa e o seu carro acaba de faltar gasolina, agora falta menos de 2 horas para anoitecer, você não tem comida nem água no carro, seu celular está sem sinal, e não lhe resta muitas opções, agora tudo que você pode fazer é explorar o local para procurar comida ou água e poder passar a noite, esperar alguma carona, ou ir para a cidade mais próxima(4km) que foi evacuada recentemente, para vê se encontra alguém ainda morando por lá e que possa lhe oferecer ajuda._", "Explorar", "Esperar", "Cidade abandonada"],
+
+    "Explorar": ["Você chegou a uma casa abandonada e não sabe o que pode encontrar lá dentro, mas pode ser a sua salvação, deseja entrar ou continuar explorando?_", "Entrar", "Continuar explorando"],
+
+    "Entrar": ["Ao entrar na casa você se deparou com um corpo na sala mas não olhou a casa por completo ainda, as suas opções agora são fugir dessa casa e continuar explorando em outro local ou investigar mais o local e talvez encontrar algo útil._", "Continuar explorando", "Investigar"],
+
+    "Investigar": ["Enquanto você investigava o assassino voltou e acabou te matando. Não foi uma boa ideia ficar no local onde um crime aconteceu a pouco tempo._", "Reiniciar"],
+
+    "Continuar explorando": ["Ao sair do local e percorrer para aproximadamente 2 quilômetros e meio longe do seu carro você viu a luz de uma casa distante, porém já é noite e você não sabe se aquela é a casa do assassino ou de alguém que possa lhe ajudar, suas opções são voltar para o carro durante a noite para procurar por ajuda no dia seguinte ou seguir em frente e pedir para passar a noite na casa._", "Voltar", "Seguir em frente"],
+
+    "Seguir em frente": ["Chegando na casa você é recebido por um casal que te dá comida, água e te deixa passar a noite, o que você não esperava é que esse casal são canibais e te mataram enquanto você dormia. Vivemos em um mundo cruel._", "Reiniciar"],
+
+    "Voltar1": ["Voltando para o carro você acabou se deparando com um urso faminto, que te atacou, você até tentou correr porém um urso pode chegar a 56km/h, acha que teve chances? é o fim da linha._", "Reiniciar"],
+
+    "Voltar2": ["Voltando para o carro você acabou se deparando com um urso faminto, para sua sorte ele se distraiu com um esquilo, o que te permitiu sair ileso, após a noite no carro suas opções agora são esperar por carona ou ir a cidade abandonada._", "Esperar", "Cidade"],
+    
+    "Esperar": ["Depois de esperar por 8 horas, o primeiro carro é avistado, ao parar, o motorista informa que não tem gasolina suficiente para dividir pois só tem o suficiente para seu próprio destino, portanto te oferece uma carona, você pode ir com ele e voltar para buscar seu carro depois ou esperar por outro carro. o que pode demorar bastante._", "Aceitar", "Negar"],
+
+    "Aceitar": ["O motorista está bêbado, algo que você não percebeu ao aceitar a carona, ele está um pouco acima da velocidade permitida na pista. suas únicas opções são pedir para que ele pare ou para que diminua a velocidade._", "Parar", "Diminuir"],
+    
+    "Parar": ["O motorista ficou bem alterado após você pedir para parar, e disse que você já atrapalhou demais a viagem dele e que não pode ficar parando, vocês começaram a discutir com o carro ainda em movimento, o motorista acabou perdendo o controle e o carro capotou, é o fim da linha, você não sobreviveu. dica: Se beber não dirija._", "Reiniciar"],
+
+    "Diminuir": ["O motorista diminuiu a velocidade, porém após alguns quilômetros tentou uma curva sem reduzir o suficiente, o carro acabou capotando e você não sobreviveu, talvez nem fosse o seu dia de morrer, mas era o do motorista, dica: Se beber não dirija._", "Reiniciar"],
+
+    "Negar": ["Quase 8 horas depois, você esperou o suficiente, mas ainda com fome e sede, já está no dia seguinte e não lhe resta mais opções a não ser ir para a cidade abandonada, você está fraco para gastar o pouco de energia que lhe resta explorando e a cidade pode ser sua única chance de sobrevivência._", "Cidade"],
+    
+    "Aceitar carona": ["O motorista está um pouco acima da velocidade permitida na pista. suas únicas opções são pedir para que ele pare ou para que diminua a velocidade._", "Parar", "Diminuir"],
+
+    "Negar carona":["Depois de esperar por aproximadamente 2 horas, finalmente chegou uma nova carona, você deve ter verificado e visto que o motorista está bem sóbrio, pense bem esse lugar não é de passar muitos carros._", "Aceitar dessa vez", "Negar novamente"],
+    
+    "Aceitar dessa vez": ["Parabéns, depois de passar por tudo isso, a carona que você aceitou foi da pessoa certa, o motorista te levou até a cidade de patos, onde você encontrou o seu carro que foi guinchado e você pode voltar pra casa em segurança!!_", "Fim"],
+
+    "Negar novamente": ["Você é muito desconfiado, temos que saber aceitar as oportunidades certas, se passou 2 caronas e sua situação não estava nada bem, você as recusou mesmo assim, e o seu fim não poderia ser outro, você acabou morrendo de sede e fome._", "Reiniciar"],
+
+    "Cidade abandonada": ["Depois de percorrer 4 quilômetros e chegar na cidade abandonada, você encontrou carros quebrados que ainda contém gasolina, agora você pode pegar a gasolina e voltar para o carro ou seguir explorando a cidade em busca de água ou comida, afinal andar 8 quilômetros sem comer e sem beber é bem cansativo, ainda mais agora que já é noite._", "Voltar agora", "Seguir explorando"],
+
+    "Cidade": ["Depois de percorrer 4 quilômetros e chegar na cidade abandonada, você encontrou carros quebrados que ainda contém gasolina, agora você pode pegar a gasolina e voltar para o carro ou seguir explorando a cidade em busca de água ou comida, afinal andar 8 quilômetros sem comer e sem beber é bem cansativo. ainda mais depois do que aconteceu no dia anterior._", "Voltar agora", "Seguir explorando"],
+
+    "Voltar agora": ["Você voltou andando ao local do carro, agora esgotado, com fome e com sede e a situação que parecia estar ruim, porém que valia a pena arriscar para voltar para casa, agora está muito pior, seu carro não está mais no local onde você deixou, como é possível que tiraram um carro sem gasolina do local, não é mesmo? tudo que lhe resta agora é esperar por uma carona, afinal se passou alguém para te roubar, não é tão deserto assim e você não tem para onde ir mesmo._", "Ok, esperar"],
+        
+    "Ok, esperar": ["Parece que a sorte está ao seu lado, depois alguns minutos esperando, um carro apareceu e o motorista te ofereceu uma carona, porém o motorista parece ter bebido um pouco, é arriscado, porém sua situação não é das melhores para se recusar uma carona, pode ser sua última chance de sair desse lugar!._", "Aceitar carona", "Negar carona"],
+
+    "Seguir explorando": ["Enquanto explorava a cidade você foi capturado por um grupo de pessoas fanáticas que ainda morava no local e se recusou a sair da cidade quando uma onda de assassinatos começou a acontecer anos atras, essas pessoas acreditavam que o assassino era alguma entidade do local e acabaram te usando como oferenda assim como fizeram com todos os perdidos que chegaram por ali antes de você._", "Reiniciar"]
+}

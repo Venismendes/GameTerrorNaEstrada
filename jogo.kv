@@ -1,0 +1,85 @@
+<Manager>:
+    Inicio:
+        name: 'inicio'
+    MainScreen:
+        name: 'mainscreen'
+    Final:
+        name: 'final'
+<Inicio>:
+    BoxLayout:
+        id: box_inicio
+        canvas:
+			Color:
+				rgba: 0.003, 0.086, 0.152, 1
+			Rectangle:
+				size: self.size
+				pos: self.pos
+        orientation: 'vertical'
+        spacing: 30
+        padding: 30
+        Image:
+            source: '.\imagem\logo.png'
+        Button:
+            size_hint: None, None
+            size: '200sp', '100sp'
+            text: 'Iniciar'
+            font_size: 30
+            background_color: 0.125, 0.643, 0.952, 1
+            on_release:
+                app.root.transition.direction = 'right'
+                app.root.current = 'mainscreen'
+
+<MainScreen>:
+    BoxLayout:
+        canvas:
+			Color:
+				rgba: 0.003, 0.086, 0.152, 1
+			Rectangle:
+				size: self.size
+				pos: self.pos
+        orientation: 'vertical'
+        ScrollView:
+            size_hint: 1, 2
+            LabelPreto:
+                id: contexto
+                text: ''
+                text_size: self.width-20, self.height-20
+                multiline: True
+                valign: 'top'
+                halign: 'justify'
+                font_size: 20
+        GridLayout:
+            id: grid_opcoes
+            rows: 3
+            cols: 1
+            spacing: 10
+            padding: 30, 30
+
+
+<LabelPreto@Label>
+    canvas.before:
+        Color:
+            rgba: 0.125, 0.643, 0.952, 1
+        Rectangle:
+            size: self.size
+            pos: self.pos
+    color: 0,0,0,1
+
+<Final>:
+    BoxLayout:
+        canvas:
+			Color:
+				rgba: 0.003, 0.086, 0.152, 1
+			Rectangle:
+				size: self.size
+				pos: self.pos
+        orientation: 'vertical'
+
+        LabelPreto:
+            text: '[b]Equipe de desenvolvimento da aplicação[/b]\nVenismendes Santos\nCarlos Henrique\nYoysef Nikolay\n\n[b]Professor[/b]\nJosé Jandilson\n\n[b]Disciplina[/b]\nParadigmas de Linguagens de Programação\n\n[b]Curso[/b]\nCiência da computação\n\n[b]Instituição[/b]\nUEPB Campus VII'
+            markup: True
+            text_size: self.width-20, self.height-20
+            multiline: True
+            valign: 'middle'
+            halign: 'center'
+            font_size: 20
